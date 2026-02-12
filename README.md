@@ -1,38 +1,45 @@
-# SRCVP Labs LLP Website
+# SRCVP Labs LLP Website (Dynamic Frontend)
 
-A futuristic, interactive frontend website for showcasing SRCVP's product vision in Agentic AI, Economics, Technology, and EdTech.
+This project is a **feature-rich dynamic frontend** designed for static hosting (GitHub → Hostinger).
 
-## What this site includes
-- Hero section with clear value proposition
-- Product portfolio with category filters
-- About section (replace with your personal/company details)
-- Interactive strategy slides carousel
-- Blog ideas section
-- Contact CTA
-- Interactive visual effects (particle background + tilt cards)
+## Features
+- Data-driven homepage sections rendered from JSON
+- Dynamic products grid with search, filter, and sorting
+- Dynamic blog hub with search + post rendering by slug
+- Testimonials carousel and interactive FAQ accordion
+- Lead capture + newsletter forms (demo mode ready to wire)
+- Theme toggle (dark/light)
+- Responsive navigation and animated background
 
-## Run locally
-Open `index.html` directly in the browser, or use a local server:
+## Project Structure
+- `index.html` — main landing page
+- `blog.html` — blog listing + single post view
+- `styles.css` — complete UI styling
+- `script.js` — dynamic rendering and interactions
+- `data/site.json` — products/services/pricing/testimonials/faq content
+- `data/blogs.json` — blog content source
 
+## Run Locally
 ```bash
 python3 -m http.server 4173
 ```
+Visit `http://127.0.0.1:4173`.
 
-Then visit `http://localhost:4173`.
+## Manage Blogs
+1. Open `data/blogs.json`.
+2. Add a new object with `slug`, `title`, `excerpt`, `date`, `category`, `content`.
+3. Save and push to GitHub.
+4. Deploy on Hostinger via Git pull.
 
-## Deploy from GitHub to Hostinger
-1. Push this repository to GitHub.
-2. In Hostinger hPanel, open **Websites → Manage → Git** (or Git deployment option).
-3. Connect your GitHub repository and select the branch.
-4. Set the publish path to the repository root containing `index.html`.
-5. Trigger deployment and verify your domain points to the same hosting.
+## Deploy on Hostinger from GitHub
+1. Push branch to GitHub.
+2. In Hostinger hPanel, open **Websites → Manage → Git**.
+3. Connect repository + branch.
+4. Set publish path to repo root (`index.html` location).
+5. Deploy.
 
-If Hostinger plan does not support direct Git pull:
-1. Download ZIP from GitHub.
-2. Upload files to `public_html` using File Manager.
-3. Ensure `index.html` is at `public_html/index.html`.
-
-## Customize next
-- Replace placeholder email and copy with your own details.
-- Add your real blog posts and project links.
-- Add analytics and SEO metadata.
+## Production Hardening (recommended)
+- Connect forms to Formspree / Apps Script / backend API
+- Add analytics (GA4/Plausible)
+- Add sitemap.xml + robots.txt + OpenGraph tags
+- Compress assets and enable CDN/cache headers

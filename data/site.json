@@ -1,0 +1,36 @@
+{
+  "stats": [
+    { "label": "Active Products", "value": "10+" },
+    { "label": "Domains", "value": "4" },
+    { "label": "Monthly Reach Goal", "value": "50K" },
+    { "label": "Automation Workflows", "value": "40+" }
+  ],
+  "products": [
+    { "name": "Founder Agent Stack", "category": "Agentic AI", "description": "Autonomous agents for sales outreach, proposal generation and CRM updates.", "revenue": 9 },
+    { "name": "MacroPulse India", "category": "Economics", "description": "Indicator intelligence dashboards for founders and investors.", "revenue": 8 },
+    { "name": "MentorBot Academy", "category": "EdTech", "description": "Adaptive AI tutoring and assessment pipeline for cohorts.", "revenue": 8 },
+    { "name": "No-Code Automation Lab", "category": "Technology", "description": "Done-for-you automation systems for business operations.", "revenue": 7 },
+    { "name": "Policy Signal Engine", "category": "Economics", "description": "Policy change alerts with likely sector-level impact summaries.", "revenue": 8 },
+    { "name": "Exam Prep Agents", "category": "EdTech", "description": "AI assistants for guided prep, feedback loops and revision plans.", "revenue": 7 }
+  ],
+  "services": [
+    { "title": "AI Agent Design", "copy": "From use-case discovery to deployment-ready assistants." },
+    { "title": "Economic Intelligence", "copy": "Scenario dashboards and macro-to-micro business insights." },
+    { "title": "EdTech Product Build", "copy": "Learning journeys, assessments and cohort tooling." }
+  ],
+  "pricing": [
+    { "plan": "Starter", "price": "₹14,999", "items": ["1 prototype", "2 week delivery", "Email support"] },
+    { "plan": "Growth", "price": "₹49,999", "items": ["3 components", "Analytics", "Priority support"] },
+    { "plan": "Scale", "price": "Custom", "items": ["Full platform", "Automation stack", "Dedicated consulting"] }
+  ],
+  "testimonials": [
+    { "name": "EdTech Founder", "text": "SRCVP turned our concept into a working AI tutor prototype in 12 days." },
+    { "name": "Consulting Lead", "text": "Their economics dashboard helped us reposition pricing with confidence." },
+    { "name": "Solo Creator", "text": "The automation suite reduced manual weekly operations by 60%." }
+  ],
+  "faq": [
+    { "q": "Can this website run on Hostinger static hosting?", "a": "Yes. All dynamic behavior is client-side JavaScript with JSON data files." },
+    { "q": "How do I add products?", "a": "Add entries in data/site.json under products and they render automatically." },
+    { "q": "How do I collect real form leads?", "a": "Connect forms to Formspree, Google Apps Script, or your backend API." }
+  ]
+}

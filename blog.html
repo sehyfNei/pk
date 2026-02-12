@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRCVP Blogs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">SRCVP <span>Labs LLP</span></a>
+      <nav class="nav-links open">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blogs</a>
+      </nav>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container">
+      <h1>Blog Hub</h1>
+      <p class="muted">Search and open posts powered by data/blogs.json.</p>
+      <input id="blog-search" type="search" placeholder="Search blog posts..." />
+      <div id="blog-list" class="cards-grid"></div>
+      <article id="blog-post" class="glass card hidden"></article>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
