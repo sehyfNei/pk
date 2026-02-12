@@ -1,4 +1,4 @@
-# SRCVP Labs LLP Website (Dynamic Frontend)
+# SRCVP Digital Solutions LLP Website (Dynamic Frontend)
 
 This project is a **feature-rich dynamic frontend** designed for static hosting (GitHub → Hostinger).
 
