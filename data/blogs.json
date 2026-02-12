@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "ai-agents-for-business",
+    "title": "How AI Agents Create Compounding Advantage for Small Businesses",
+    "excerpt": "A practical blueprint for using multi-agent workflows in lean teams.",
+    "date": "2026-02-10",
+    "category": "Agentic AI",
+    "content": "<p>Most small businesses underuse AI by limiting it to chat prompts. A better model is role-based agents: researcher, writer, analyst and reviewer.</p><p>When linked into a repeatable workflow, these agents produce compounding operational leverage.</p>"
+  },
+  {
+    "slug": "economics-indicators-founders",
+    "title": "7 Economic Indicators Every Founder Should Track Weekly",
+    "excerpt": "Turn macro signals into better product, pricing and hiring decisions.",
+    "date": "2026-02-09",
+    "category": "Economics",
+    "content": "<p>Track inflation, policy rate, forex, sector PMI, credit growth, unemployment and sentiment indexes.</p><p>Weekly interpretation beats monthly panic and creates better strategic timing.</p>"
+  },
+  {
+    "slug": "agentic-edtech-playbook",
+    "title": "Agentic EdTech Playbook: Personalization at Scale",
+    "excerpt": "How to design AI-native learning journeys with measurable outcomes.",
+    "date": "2026-02-08",
+    "category": "EdTech",
+    "content": "<p>Build with diagnostics first, then adaptive modules, then reflective assessment loops.</p><p>Your moat is not content alone, but the feedback intelligence layer.</p>"
+  }
+]

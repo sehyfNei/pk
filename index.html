@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRCVP Digital Solutions LLP | Agentic AI, Economics, Technology & EdTech</title>
+  <meta name="description" content="SRCVP Digital Solutions LLP builds high-impact products in agentic AI, economics, technology and edtech. Explore solutions, services, case studies and insights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">SRCVP <span>Digital Solutions LLP</span></a>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu">☰</button>
+      <nav id="nav" class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">AI + Economics + EdTech Product Studio</p>
+          <h1>Production-grade digital products for <span>modern decision makers</span></h1>
+          <p class="lead">SRCVP Digital Solutions LLP creates deployable AI assistants, economics intelligence platforms, and learning systems that improve growth, efficiency, and decisions.</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary">Explore Products</a>
+            <a href="blog.html" class="btn btn-glass">Read Blog</a>
+          </div>
+          <div id="stats" class="stats-grid"></div>
+        </div>
+        <aside class="glass card">
+          <h3>What you get</h3>
+          <ul class="check-list">
+            <li>Purpose-built digital solutions for real business outcomes</li>
+            <li>Insights and thought leadership from our core domains</li>
+            <li>Clear discovery across products, services, and use-cases</li>
+            <li>Proven delivery model with transparent collaboration</li>
+            <li>Customer-focused roadmap with measurable outcomes</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Product Portfolio</h2>
+          <p>Explore our active product initiatives across AI, economics, technology and education—each designed for practical, measurable impact.</p>
+        </div>
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="Search products..." />
+          <select id="category-filter">
+            <option value="all">All categories</option>
+          </select>
+          <select id="sort-by">
+            <option value="name">Sort: Name</option>
+            <option value="revenue">Sort: Revenue Potential</option>
+          </select>
+        </div>
+        <div id="products-grid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Service Components</h2>
+        </div>
+        <div id="services-grid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-head"><h2>Pricing Plans</h2></div>
+        <div id="pricing-grid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-head"><h2>Testimonials</h2></div>
+        <div class="slider-wrap">
+          <button id="prev-testimonial" class="circle-btn">‹</button>
+          <article id="testimonial-card" class="glass card testimonial"></article>
+          <button id="next-testimonial" class="circle-btn">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs" class="section">
+      <div class="container">
+        <div class="section-head spread">
+          <div>
+            <h2>Latest Insights</h2>
+            <p>Insights on AI, economics, technology, and EdTech to help leaders make better decisions.</p>
+          </div>
+          <a href="blog.html" class="btn btn-glass">View All Blogs</a>
+        </div>
+        <div id="blog-grid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head"><h2>FAQ</h2></div>
+        <div id="faq-list" class="faq-list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div class="glass card">
+          <h2>Contact & Lead Capture</h2>
+          <p>Use this form for inquiries, product demos, or collaboration requests.</p>
+          <form id="lead-form" class="form-grid">
+            <input required name="name" placeholder="Full name" />
+            <input required type="email" name="email" placeholder="Email" />
+            <select name="interest" required>
+              <option value="">Select interest</option>
+              <option>Agentic AI Solutions</option>
+              <option>Economics Dashboard</option>
+              <option>EdTech Platform</option>
+              <option>Consulting</option>
+            </select>
+            <textarea required name="message" placeholder="Tell us your requirement"></textarea>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+          <p id="form-status" class="muted"></p>
+        </div>
+        <div class="glass card">
+          <h3>Newsletter</h3>
+          <p>Collect weekly audience interest and redirect into your offers funnel.</p>
+          <form id="newsletter-form" class="inline-form">
+            <input type="email" required placeholder="you@domain.com" />
+            <button class="btn btn-glass" type="submit">Subscribe</button>
+          </form>
+          <p id="newsletter-status" class="muted"></p>
+          <hr />
+          <h3>Why Clients Choose Us</h3>
+          <ul class="check-list">
+            <li>Domain expertise in AI, economics, and education</li>
+            <li>Outcome-first product strategy</li>
+            <li>Rapid prototyping with quality UX</li>
+            <li>Long-term support and iteration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SRCVP Digital Solutions LLP. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
